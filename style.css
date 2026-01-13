@@ -45,3 +45,18 @@ body {
 .box.active {
     transform: translateX(0);
 }
+
+@media (max-width: 400px) {
+    .box {
+        width: 80%; 
+        transform: translateX(150%); 
+    }
+    
+    .box:nth-of-type(even) {
+        transform: translateX(-150%);
+    }
+
+    .container {
+        margin: 20px;
+    }
+}
