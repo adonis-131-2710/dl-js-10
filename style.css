@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    width: 80%;
+    width: 100%;
     margin: 50px;
     display: flex;
     flex-direction: column;
@@ -26,6 +26,7 @@ body {
     text-shadow: 0 2px 4px rgba(255, 255, 255, 0.849);
 }
 .box {
+    max-width: 90%;
     width: 350px;
     height: 200px;
     border-radius: 20px;
@@ -45,20 +46,5 @@ body {
 }
 .box.active {
     transform: translateX(0);
-}
-
-@media (max-width: 400px) {
-    .box {
-        width: 80%; 
-        transform: translateX(150%); 
-    }
-    
-    .box:nth-of-type(even) {
-        transform: translateX(-150%);
-    }
-
-    .container {
-        margin: 20px;
-    }
 }
 
