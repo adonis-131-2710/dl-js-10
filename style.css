@@ -3,11 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "lexend";
+    overflow-x: hidden;
 }
 body {
+    width: 100%;
     background: radial-gradient(rgb(37, 0, 61),rgb(0, 20, 33));
     background-repeat: no-repeat;
-    overflow-x: hidden;
 }
 
 .container {
@@ -47,5 +48,4 @@ body {
 .box.active {
     transform: translateX(0);
 }
-
 
