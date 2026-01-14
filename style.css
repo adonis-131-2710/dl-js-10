@@ -7,7 +7,7 @@
 }
 body {
     width: 100%;
-    background: radial-gradient(rgb(37, 0, 61),rgb(0, 20, 33));
+    background: radial-gradient(rgb(2, 52, 52),rgb(0, 20, 33));
     background-repeat: no-repeat;
 }
 
@@ -39,7 +39,7 @@ body {
     color: rgb(255, 255, 255);
     font-size: 20px;
     text-shadow: 0 1px 2px rgb(167, 170, 186);
-    box-shadow: 0 0 8px 2px rgba(176, 192, 255, 0.595);
+    box-shadow: 0 0 8px 2px rgba(176, 223, 255, 0.595);
     transform: translateX(400%);
     transition: transform 0.4s ease;
 }
